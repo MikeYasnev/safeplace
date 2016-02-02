@@ -6,7 +6,7 @@ Safe Place is a proposal of the open protocol for the for video surveilance IoT 
 
 **Users**
 
-End user who would like to connect to the system in order to protect his property (car, house) or himself. User owns the list of the Safe Place **devices** and manages them according to the **Policy** using the **Commands**.
+End user who would like to connect to the system in order to protect his property (car, house) or himself. User owns the list of the Safe Place **devices** and manages them according to the **Policy** using the **Operations**.
 
 **SafePlace devices** (T in the IoT)
 
