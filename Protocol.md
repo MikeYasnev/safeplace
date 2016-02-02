@@ -32,7 +32,7 @@ Please provide me with video file recored on your car to get the registration nu
 User B: "OK I agree", total mobile data transfer is paid by User A to User B.
 
 Cloud can get faster response from the devices but without manual confirmation in case of Alarm mode.
-E.g: we need to follow the group of rubbers.
+E.g: we need to follow the group of robbers.
 
 ##Operations
 
