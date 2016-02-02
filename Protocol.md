@@ -91,8 +91,9 @@ To get required video fragment from other user and its device.
 
 **SpecialFragmentRequest** (geo, time, keywords, reason)
 
-Special goverment request of the inforamtion. 
-It is not possible to block it from User A side
+Special goverment request of the information. 
+It is not possible to block it from User A side. But user receives notifications about uploads implemented
+Payments for mobile data transfer: to be covered by Governace to Provider 
 
 
 
