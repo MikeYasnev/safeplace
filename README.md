@@ -18,12 +18,12 @@ Issue of the current video surveillance systems:
 - In order to find some picture you need some complex process to get the source
 and owner of the video.
 	
-###Issue 3. Mobile video cameras in the cars works only during motion.
+###Issue #3. Mobile video cameras in the cars works only during motion.
 -It is not possible to capture video effectively around the car during park mode
 which usually lost much longer than moving.
 -All the video-capture devices don’t share information effectively.
 	
-###Issue 4. Video capture system in the Smart Home have commons vulnerabilities
+###Issue #4. Video capture system in the Smart Home have commons vulnerabilities
 - one channel of communication and one storage. 
 - rubber can damage the channel and take away the storage with video records.
 
