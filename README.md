@@ -98,6 +98,17 @@ car owners, home owners and companies
 
 - Global coverage due to the shared protocols and crowd funding approach for video surveillance
 
+ ===========
+ 
+Sherlock Holmes sample (based on the photos from Elementary movie).
+
+Usually all the detectives has to interview eyewitnesses.
+Safe Place devices can provide complete 3d picture with timing and geo location.
+Here cars with possible Safe Place installation are marked with red lines.
+![Sample Holmes 1](https://github.com/MikeYasnev/safeplace/blob/master/h0.png)
+![Sample Holmes 2](https://github.com/MikeYasnev/safeplace/blob/master/h1.png)
+
+
 
 ============
 
