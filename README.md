@@ -32,7 +32,7 @@ which usually lost much longer than moving.
 	
 ==========
 
-Possible (and perhaps the only possible) solution.
+##Possible (and perhaps the only possible) solution.
 
 The idea is to define common standard for IoT of crowd video surveillance systems to be implemented globally.
 The standard must have technical and legal support aligned with constraints for each country.
@@ -40,7 +40,7 @@ The standard must have technical and legal support aligned with constraints for 
 	
 ==========
 
-Initial draft of the standard.
+##Initial draft of the standard.
 
 Global
 
@@ -100,7 +100,7 @@ car owners, home owners and companies
 
  ===========
  
-Sherlock Holmes sample (based on the photos from Elementary movie).
+##Sherlock Holmes sample (based on the photos from Elementary movie).
 
 Usually all the detectives has to interview eyewitnesses.
 Safe Place devices can provide complete 3d picture with timing and geo location.
@@ -112,7 +112,7 @@ Here cars with possible Safe Place installation are marked with red lines.
 
 ============
 
-Possible benefits for society 	   
+##Possible benefits for the Society 	   
 
 - Safe area and significant decrease of criminal levels in secured areas
 
@@ -131,7 +131,7 @@ Possible benefits for society
  
 ============
 
-Failure of Smart Home lesson
+##Failure of Smart Home lesson
 
 - Split of the communication standards in the Smart home actually stopped a lot of innovations.
 
