@@ -1,4 +1,4 @@
-# Safe Place v0.1 
+# Safe Place v0.1.01 
 
 Safe Place is a proposal of the open protocol for the for video surveilance IoT implementations using crowdfunding approach
 
@@ -49,7 +49,7 @@ This operation terminates connection between device and Provider
 This operation starts standard Monitor mode with continious recording (may be up to 24 h and cycle re-write after that)
 This is a good point for the device to clarify Geo coordinate once again and to recognize some objects in the focus.
 Orientation by object can help Provier to make clear picture of the Place (and make it Safe)
-Strong AI is expected here
+Strong AI is expected here to extract faces, car numbers and etc.
 
 **StopMonitor**
 
@@ -58,7 +58,8 @@ This operation deactivates monitoring mode.
 **Alarm** (geo, direction, keywords)
 
 Some signal was catched by device or external event source to monitor activities in the special mode.
-
+Alarm can also be trigerred by User. 
+E.g. some App from smartwatch on the girls hand activates monitoring mode and help her to go home during night time.
 
 **SearchForObject** (geo, direction, keywords)
 
@@ -72,6 +73,8 @@ Device: "entered car light gray color, number of the car is #2323. Switching to 
 ..
 Device: "car left to x3,y3 direction"
 Cloud: StopSearch
+
+And here Cloud can reorganize the search and start it on the other devices.
 
 **StopSearch**
 
