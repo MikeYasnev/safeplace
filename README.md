@@ -1,8 +1,6 @@
 # safeplace
 Project of the open standard for video surveilance IoT implementation using crowdfunding approach
 
-
-
 Issue of the current video surveillance systems:
 
 ###Issue #1. One video surveylance system from government is not enough   
@@ -126,8 +124,10 @@ Here cars with possible Safe Place installation are marked with red lines.
  
  - Actually the KPI it to almost eliminate robbery, murders, cars stolen and connected types of criminal at all 
  
- - Perhaps this solution can be very important in Germany and other countries in Europe to help with
- current issues 
+ - Perhaps this solution can be very important in Germany, France and other countries in Europe to help with
+ current issues. It can be also usefull in USA to align activities of police and people and solve some issues around famous incidents. 
+
+- It is possible to find lost people and children by organizing search by faces in time and geo location
  
 ============
 
