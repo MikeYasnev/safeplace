@@ -1,6 +1,7 @@
-http://mikeyasnev.github.io/safeplace/
+
 
 # Safe Place
+http://mikeyasnev.github.io/safeplace/
 Project of the collaborative video surveilance IoT implementation using crowdfunding approach and open standard.
 
 #Project Status
