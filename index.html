@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Safe Place by MikeYasnev</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Safe Place</h1>
+        <h2>Project of the open standard for videosurveilance IoT implementation using crowdfinding approach</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/MikeYasnev/safeplace/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/MikeYasnev/safeplace/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/MikeYasnev/safeplace" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="safe-place" class="anchor" href="#safe-place" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Safe Place</h1>
+
+<p>Project of the collaborative video surveilance IoT implementation using crowdfunding approach and open standard.</p>
+
+<h1>
+<a id="project-status" class="anchor" href="#project-status" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Status</h1>
+
+<p><img src="https://github.com/MikeYasnev/safeplace/blob/master/current%20plan.png" alt="Plan"></p>
+
+<p><img src="https://github.com/MikeYasnev/safeplace/blob/master/Screenshot1.png" alt="ScreenShot1">
+<img src="https://github.com/MikeYasnev/safeplace/blob/master/Screenshot2.png" alt="ScreenShot2"></p>
+
+<h1>
+<a id="project-description" class="anchor" href="#project-description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Description</h1>
+
+<p>Issue of the current video surveillance systems:</p>
+
+<h3>
+<a id="issue-1-one-video-surveylance-system-from-government-is-not-enough" class="anchor" href="#issue-1-one-video-surveylance-system-from-government-is-not-enough" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issue #1. One video surveylance system from government is not enough</h3>
+
+<ul>
+<li>Government video surveylance systems located on the streets can not cover enough areas and achieve enough level of details to get required quality of pictures</li>
+<li>Scaling of the government systems cost significantly for the budget.</li>
+<li>Placement of the video cameras is well known and static.</li>
+<li>System is always closed and usually unavailable to the people.</li>
+</ul>
+
+<h3>
+<a id="issue-2-commercial-and-private-systems-are-disorganized" class="anchor" href="#issue-2-commercial-and-private-systems-are-disorganized" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issue #2. Commercial and private systems are disorganized.</h3>
+
+<p>-The systems don’t share any standard of communication the share of video with results (with geo and time tags included)</p>
+
+<ul>
+<li>In order to find some picture you need some complex process to get the source
+and owner of the video.</li>
+</ul>
+
+<h3>
+<a id="issue-3-mobile-video-cameras-in-the-cars-works-only-during-motion" class="anchor" href="#issue-3-mobile-video-cameras-in-the-cars-works-only-during-motion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issue #3. Mobile video cameras in the cars works only during motion.</h3>
+
+<p>-It is not possible to capture video effectively around the car during park mode
+which usually lost much longer than moving.
+-All the video-capture devices don’t share information effectively.</p>
+
+<h3>
+<a id="issue-4-video-capture-system-in-the-smart-home-have-commons-vulnerabilities" class="anchor" href="#issue-4-video-capture-system-in-the-smart-home-have-commons-vulnerabilities" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issue #4. Video capture system in the Smart Home have commons vulnerabilities</h3>
+
+<ul>
+<li>one channel of communication and one storage. </li>
+<li>rubber can damage the channel and take away the storage with video records.</li>
+</ul>
+
+<h1></h1>
+
+<h2>
+<a id="possible-and-perhaps-the-only-possible-solution" class="anchor" href="#possible-and-perhaps-the-only-possible-solution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Possible (and perhaps the only possible) solution.</h2>
+
+<p>The idea is to define common standard for IoT of crowd video surveillance systems to be implemented globally.
+The standard must have technical and legal support aligned with constraints for each country.</p>
+
+<h1></h1>
+
+<h2>
+<a id="initial-draft-of-the-standard" class="anchor" href="#initial-draft-of-the-standard" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial draft of the standard.</h2>
+
+<p>Global</p>
+
+<ul>
+<li><p>Video surveillance system is implemented in the country according to the local standards</p></li>
+<li><p>All the global storage is managed by several providers (as commercial and governments) and located inside country</p></li>
+</ul>
+
+<p>Car's part</p>
+
+<ul>
+<li>
+<p>Each person can install some smart device into his own car to connect the network using special
+commercial of government provider.
+Video records can be collected around the car in the 7 days by 24 hours mode.
+These records can be collected in the local storage 
+Some extraction to the cloud is possible according to the rules (see below)<br>
+Some processing is possible according to the rules (see below)  </p>
+
+<p>Home part </p>
+
+<ul>
+<li>Each person and company can install smart device into its home or office the ensure protection.
+Video records can be collected in the local storage 
+Some extraction to the cloud is possible according to the rules (see below)<br>
+Some processing is possible according to the rules (see below)<br>
+</li>
+</ul>
+
+<p>Drone part</p>
+
+<ul>
+<li>providers and home owners can use drones to implement very fast speeds to ensure video surveillance
+in the exact places with specific parameters </li>
+</ul>
+
+<p>Cloud part</p>
+
+<ul>
+<li>Government systems can extract information from all the personal sources with notifications</li>
+<li>P2P information exchange between persons and companies is available by request/response.
+Like: please send to me video from you camera: point x1, y1, date:12.01.2016 start: 12:00, end 12:05 
+I need to get info about cars my clash. Here is clarification (attachments). =&gt; some payments for help </li>
+<li>Government to persons: is an open question</li>
+</ul>
+
+<p>Actions</p>
+
+<ul>
+<li>Search for information (geo, time, source type)</li>
+<li>Keep info request (for later possible extraction)</li>
+<li>Geo alert (signs of the fight on the street, bank robbery)
+=&gt; Activate all the possible cams for the following operations</li>
+<li>Follow up mode
+=&gt; All the devices fix up the required object and their history and parameters
+    (men’s in black took car number #123 and went to some street).</li>
+</ul>
+
+<h1></h1>
+</li>
+</ul>
+
+<p>Technical, economy and functional  aspects</p>
+
+<ul>
+<li><p>Costs of the video camera, processing and networking is distributed between
+car owners, home owners and companies</p></li>
+<li><p>Effective usage of networks, storage, electricity</p></li>
+<li>
+<p>Global coverage due to the shared protocols and crowd funding approach for video surveillance</p>
+
+<h1></h1>
+</li>
+</ul>
+
+<h2>
+<a id="sherlock-holmes-sample-based-on-the-photos-from-elementary-movie" class="anchor" href="#sherlock-holmes-sample-based-on-the-photos-from-elementary-movie" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sherlock Holmes sample (based on the photos from Elementary movie).</h2>
+
+<p>Usually all the detectives has to interview eyewitnesses.
+Safe Place devices can provide complete 3d picture with timing and geo location.
+Here cars with possible Safe Place installation are marked with red lines.
+<img src="https://github.com/MikeYasnev/safeplace/blob/master/h0.png" alt="Sample Holmes 1">
+<img src="https://github.com/MikeYasnev/safeplace/blob/master/h1.png" alt="Sample Holmes 2"></p>
+
+<h1></h1>
+
+<h2>
+<a id="possible-benefits-for-the-society" class="anchor" href="#possible-benefits-for-the-society" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Possible benefits for the Society</h2>
+
+<ul>
+<li><p>Safe area and significant decrease of criminal levels in secured areas</p></li>
+<li><p>Video cameras can be everywhere. They are dynamic (with cars), fast to process and easy to communicate</p></li>
+<li>
+<p>Cars become unbreakable. It is often possible to damage one car security system.
+It is almost impossible to break the systems of several cars standing along.
+Cars like the Fellowship of the Ring can support each other.
+If one car is stolen then other will save the history and will try to process the face recognition
+In online mode to capture results, follow-up the stolen car during its way.  </p>
+
+<ul>
+<li><p>Actually the KPI it to almost eliminate robbery, murders, cars stolen and connected types of criminal at all </p></li>
+<li><p>Perhaps this solution can be very important in Germany, France and other countries in Europe to help with
+current issues. It can be also usefull in USA to align activities of police and people and solve some issues around famous incidents. </p></li>
+</ul>
+</li>
+<li><p>It is possible to find lost people and children by organizing search by faces in time and geo location</p></li>
+</ul>
+
+<h1></h1>
+
+<h2>
+<a id="failure-of-smart-home-lesson" class="anchor" href="#failure-of-smart-home-lesson" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Failure of Smart Home lesson</h2>
+
+<ul>
+<li><p>Split of the communication standards in the Smart home actually stopped a lot of innovations.</p></li>
+<li><p>The area of video surveillance is in its early stage. It has change to update existing solutions 
+and build new system with common standard</p></li>
+<li><p>Absence of such a standard and communication can decrease the benefits from separated systems</p></li>
+</ul>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
