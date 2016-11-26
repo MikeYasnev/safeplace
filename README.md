@@ -4,6 +4,8 @@ Project of the collaborative video surveilance IoT implementation using crowdfun
 #Project Status
 ![Plan](https://github.com/MikeYasnev/safeplace/blob/master/current plan.png)
 
+![ScreenShot](https://github.com/MikeYasnev/safeplace/blob/master/Screenshot1.png)
+
 
 # Project Description 
 
