@@ -2,7 +2,7 @@
 Project of the collaborative video surveilance IoT implementation using crowdfunding approach and open standard.
 
 #Project Status
-![Plan](https://github.com/MikeYasnev/safeplace/blob/master/2016-11-27.png)
+![Plan](https://github.com/MikeYasnev/safeplace/blob/master/current plan.png)
 
 
 # Project Description 
