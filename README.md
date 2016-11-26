@@ -1,4 +1,4 @@
-# safeplace
+# Safe Place
 Project of the collaborative video surveilance IoT implementation using crowdfunding approach and open standard.
 
 #Project Status
