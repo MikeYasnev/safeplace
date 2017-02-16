@@ -6,7 +6,9 @@ http://mikeyasnev.github.io/safeplace/
 Project of the collaborative video surveilance IoT implementation using crowdfunding approach and open standard.
 
 #Project Status
-![Plan](https://github.com/MikeYasnev/safeplace/blob/master/current plan.png)
+
+Project strategy and status are described in the presentation
+https://github.com/MikeYasnev/safeplace/blob/master/safe%20place%20v1.5.pdf
 
 ![ScreenShot1](https://github.com/MikeYasnev/safeplace/blob/master/Screenshot1.png)
 ![ScreenShot2](https://github.com/MikeYasnev/safeplace/blob/master/Screenshot2.png)
